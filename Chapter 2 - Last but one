@@ -1,0 +1,6 @@
+-- Last but one: implementing a function that returns the second last element of a list --
+-- Easily adjustable to return the nth element, too. --
+
+lastButOne :: [a] -> [a] -> Int -> [a]
+
+lastButOne x = head (drop (length x) - 2) x)
